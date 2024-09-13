@@ -10,7 +10,7 @@ async function getWeather(city) {
             document.getElementById('description').textContent = `Description: ${data.weather[0].description}`;
             document.getElementById('humidity').textContent = `Humidity: ${data.main.humidity}%`;
             document.getElementById('wind').textContent = `Wind Speed: ${data.wind.speed} km/h`;
-            document.getElementById('weatherIcon').src = `temperature.png.webp/${data.weather[0].icon}.temperature.png.webp`;
+           
 
 
 
